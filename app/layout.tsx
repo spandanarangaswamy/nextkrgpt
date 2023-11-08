@@ -3,7 +3,7 @@ import ".//globals.css";
 
 export const metadata = {
   title: "nextclone",
-  description: "A ChatGPT clone with enhanced features for makers.",
+  description: "A ChatGPT clone",
 };
 
 import JotaiProvider from "@/components/providers/jotai-provider";

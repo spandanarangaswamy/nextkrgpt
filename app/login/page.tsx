@@ -22,19 +22,11 @@ const LoginPage = () => {
             />
             <div className="mt-5">
               <div className="text-3xl font-medium text-neutral-900">
-                Nextgpt
+                Nextgpt chat
               </div>
             </div>
           </div>
         </div>
-        <Image
-          priority
-          sizes="50vw"
-          className="z-0"
-          alt="gradient"
-          fill
-          src="/login-gradient.jpg"
-        />
       </div>
     </div>
   );
