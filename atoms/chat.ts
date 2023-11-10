@@ -16,7 +16,7 @@ const modelPrices = {
   "gpt-3.5-turbo": 0.002 / 1000,
   "gpt-4": 0.03 / 1000,
 };
-export const defaultSystemPropmt = 'nextgpt';//`You are makr.AI, a large language model trained by OpenAI.`;
+export const defaultSystemPropmt = 'nextgpt';
 
 // To hold OpenAI API Key
 export const openAIAPIKeyAtom = atom<string>(process.env.OPENAI_API_KEY || "");

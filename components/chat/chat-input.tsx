@@ -85,7 +85,7 @@ const ChatInput = () => {
           </div>
         )}
         {/* Settings */}
-        {hasChatMessages && <ChatSettingsMenu />}
+        {/* {hasChatMessages && <ChatSettingsMenu />} */}
         {/* Input Container */}
         <form
           onSubmit={handleSubmit}

@@ -3,7 +3,7 @@ import { mobileMenuAtom } from "@/atoms/navigation";
 import useChats from "@/hooks/useChats";
 import { useAtom } from "jotai";
 import { Plus } from "lucide-react";
-import Logo from "../brand/logo";
+// import Logo from "../brand/logo";
 import Chats from "../chat/chats";
 import { Button } from "../ui/button";
 import ProfileMenu from "./profile-menu";
