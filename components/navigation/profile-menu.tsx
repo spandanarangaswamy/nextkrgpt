@@ -32,7 +32,7 @@ const ProfileMenu = () => {
           </AvatarFallback>
         </Avatar>
         <div className="text-left whitespace-nowrap">
-          <div>{user?.full_name}</div>
+          <div className="text-white">{user?.full_name}</div>
         </div>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-full mb-2" side="top" align="start">
@@ -46,7 +46,7 @@ const ProfileMenu = () => {
           }}
         >
           <div className="flex items-center gap-2">
-            <RefreshCcw size="14" /> Reset API Key
+
           </div>
         </DropdownMenuItem>
         <DropdownMenuSeparator />

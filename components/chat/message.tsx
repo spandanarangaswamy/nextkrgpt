@@ -18,8 +18,8 @@ const Message = ({ message }: { message: MessageT }) => {
     <div
       className={
         !isAssistant
-          ? "dark:bg-neutral-950/60 bg-neutral-100/50"
-          : "dark:bg-neutral-900 bg-neutral-200/40 last:pb-64 last:sm:pb-44"
+          ? "dark:bg-neutral-950/60 bg-userc2 text-white"
+          : "dark:bg-neutral-900 bg-gptc3 last:pb-64 last:sm:pb-44 text-white"
       }
     >
       {/* Container */}

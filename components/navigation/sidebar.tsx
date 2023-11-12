@@ -14,7 +14,7 @@ const Sidebar = () => {
 
   return (
     <aside
-      className={`fixed top-0 left-0 bottom-0 z-40 w-64 px-4 py-8 transition-transform -translate-x-full shadow-md md:translate-x-0 bg-black${
+      className={`fixed top-0 left-0 bottom-0 z-40 w-64 px-4 py-8 transition-transform -translate-x-full shadow-md md:translate-x-0 bg-custom ${
         isMobileMenuOpen ? " !translate-x-0" : " "
       }`}
     >
@@ -29,9 +29,9 @@ const Sidebar = () => {
               showMobileMenu(false);
             }}
             variant="subtle"
-            className="flex-shrink-0 w-full mt-8 sm:mt-16"
+            className="flex-shrink-0 w-full mt-8 sm:mt-16 bg-custom text-white border border-white hover:bg-gptc3"
           >
-            New Chat <Plus size="16" />
+            <Plus size="16" /> New Chat 
           </Button>
         </div>
         <Chats />
